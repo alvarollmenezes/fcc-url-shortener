@@ -1,0 +1,19 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-confusing-arrow": "warn",
+        "no-unreachable": "warn",
+        "no-var": "warn",
+        "max-len": ["warn", 80],
+        "no-console": "off",
+        "no-extra-semi": "off",
+        "no-unused-vars": "warn"
+    }
+}
